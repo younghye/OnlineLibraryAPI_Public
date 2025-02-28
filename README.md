@@ -17,7 +17,10 @@ https://github.com/younghye/OnlineLibraryAPI_Public
 
 ## Demo
 https://blue-cliff-0bdeaa900.5.azurestaticapps.net/access<br />
-#### $\textsf{\color{#ff0000}{I have the API hosted on Azure that is sometimes timing out connection, and it works again after few minutues.}}$   $\textsf{\color{#ff0000}{If you get the error, please try again later. I'm working on resolving the issue.}}$
+> [!NOTE]
+> I use serverless Azure SQL databases is automatically pauses databases during inactive periods and when any activity occurs, the database will automatically resume from the paused state.
+The first connection to the database always fails, as the auto-resume takes a number of minutes. Please try again after 1-2 minutes.
+
 
 ### Login 
 UserName: Test<br /> 
